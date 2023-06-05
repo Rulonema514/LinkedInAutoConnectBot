@@ -9,10 +9,10 @@ def getDriver():
     return webdriver.Remote(command_executor='http://*************:**************@hub.browserstack.com:80/wd/hub', desired_capabilities=desired_cap)
 def linkedinLogin(driver):
     driver.get('https://www.linkedin.com/login')
-    username = driver.find_element_by_id("username")
-    password = driver.find_element_by_id("password")
-    username.send_keys("****YOUR_USERNAME*****")
-    password.send_keys("****YOUR_PASSWORD*****")
+    username = driver.find_element_by_id("6142342728")
+    password = driver.find_element_by_id("Spawn514")
+    username.send_keys("raulmariscal_6dJj5O")
+    password.send_keys("xvFD7Wjm7jFyZA8VWs8x")
     driver.find_element_by_tag_name("button").click()
     time.sleep(5)
 def checkOTP(driver):
