@@ -2,8 +2,8 @@
 import imaplib, email 
   
 #Put your Gmail Email here. (Replace YOUR_GMAIL_EMAILID with youremailid@gmail.com)
-user = 'YOUR_GMAIL_EMAILID'
-password = 'YOUR_APP_PASSWORD' #Get this app password from https://myaccount.google.com/security 
+user = 'rulonema@gmail.com'
+password = '11154111' #Get this app password from https://myaccount.google.com/security 
 imap_url = 'imap.gmail.com'
 class mail:
     def __init__(self):
